@@ -60,6 +60,15 @@
                         </li>
                     {{ end }}
 
+                    {{ if not (.Site.Params.navbar.menus.disableAboutMe | default false) }}
+                    <li class="nav-item dropdown navbar-tex">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About Me 
+                          </a>
+                
+                          <ul class="dropdown-menu">
+
+
                     {{ if and (.Site.Params.about.enable | default false) (not (.Site.Params.navbar.menus.disableAbout | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#about" aria-label="about">
@@ -86,6 +95,19 @@
                     </li>
                     {{ end }}
 
+                </ul>
+                </li>
+                {{ end }}
+
+
+                {{ if not (.Site.Params.navbar.menus.disableAboutMe | default false) }}
+                    <li class="nav-item dropdown navbar-tex">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                          </a>
+                
+                          <ul class="dropdown-menu">
+
                     {{ if and (.Site.Params.projects.enable | default false) (not (.Site.Params.navbar.menus.disableProjects | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#projects"
@@ -104,6 +126,19 @@
                     </li>
                     {{ end }}
 
+                </ul>
+            </li>
+            {{ end }}
+
+            {{ if not (.Site.Params.navbar.menus.disableAboutMe | default false) }}
+            <li class="nav-item dropdown navbar-tex">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Connect
+                  </a>
+        
+                  <ul class="dropdown-menu">
+
+
                     {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#contact"
@@ -113,9 +148,15 @@
                     </li>
                     {{ end }}
 
-                    <!-- custom menus from the user -->
-                    {{ range .Site.Menus.main }}
-                    {{ if .HasChildren }}
+  <!-- custom menus from the user -->
+  {{ range .Site.Menus.main }}
+  {{ if .HasChildren }}
+
+                </ul>
+            </li>
+            {{ end }}
+
+                  
                     <!-- Dropdown menu -->
                     <li class="nav-item navbar-text dropdown">
                         <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown" role="button"
