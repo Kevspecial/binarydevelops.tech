@@ -122,8 +122,8 @@ params:
     enable: true
     intro: "Hello, my name is "
     title: "Kelvin Nwokike."
-    subtitle: "I'm a Fullstack Developer and an I.T System Specialist"
-    content: "Fullstack Developer with a passion for creating great websites that inspire and fascinate. Functionality and aesthetics are combined, as are originality and accuracy. Let's create the digital environment of the future. Aiming to leave your mark? Let's get going!."
+    subtitle: "Fullstack Engineer and I.T Consultant"
+    content: "Fullstack Engineer || Linux | Docker | CI - CD || UX - Writer | Pan-Africanist || Technology Consultant | SMM | Entrepreneur."
     image: /images/hero.svg
     bottomImage:
       enable: true
