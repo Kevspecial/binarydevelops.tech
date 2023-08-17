@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rich Content on My Portfolio Site</title>
-    <link>http://example.org/blogs/rich-content/</link>
+    <link>https://binarydevelops.tech/blogs/rich-content/</link>
     <description>Recent content in Rich Content on My Portfolio Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Apr 2021 19:53:33 +0530</lastBuildDate>
     
-	<atom:link href="http://example.org/blogs/rich-content/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://binarydevelops.tech/blogs/rich-content/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
