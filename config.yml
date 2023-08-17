@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://binarydevelops.tech/
 languageCode: en-us
 title: My Portfolio Site
 theme: hugo-profile
@@ -34,7 +34,7 @@ Menus:
       title: Blog posts
       url: /gallery
       weight: 2
-    #Dropdown menu
+    # Dropdown menu:
     # - identifier: dropdown
     #   title: Example dropdown menu
     #   name: Dropdown
