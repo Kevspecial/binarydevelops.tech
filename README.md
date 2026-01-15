@@ -1,6 +1,6 @@
 # Binary Develops - Personal Portfolio & Blog
 
-> A modern, responsive portfolio and blog website built with Hugo, showcasing my work as a Fullstack Engineer and I.T Consultant.
+> A modern, responsive portfolio and blog website built with Hugo, showcasing my work as a Fullstack Engineer and IT Consultant.
 
 [![Netlify Status](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?logo=netlify&logoColor=white)](https://binarydevelops.tech/)
 [![Hugo](https://img.shields.io/badge/Hugo-v0.87.0+-FF4088?logo=hugo&logoColor=white)](https://gohugo.io/)
@@ -29,7 +29,7 @@ This is my personal portfolio website featuring my professional experience, tech
 - 📊 **Project Showcase** - Highlight your best work
 - 🎓 **Experience & Education** - Professional timeline
 - 🏆 **Achievements Section** - Display accomplishments
-- 📧 **Contact Form** - Easy communication via FormSpree integration
+- 📧 **Contact Form** - Easy communication via Formspree integration
 - 🔍 **Search Functionality** - Quick content discovery
 - 🏷️ **Taxonomies** - Organize content with tags and categories
 
